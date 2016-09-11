@@ -47,4 +47,8 @@ public interface ICommitter extends Serializable {
      * @param id
      */
     void revert(BatchId id, byte[] commitResult);
+
+    /**
+     * @author zhouwei
+     */
 }
